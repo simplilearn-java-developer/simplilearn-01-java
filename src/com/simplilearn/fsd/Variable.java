@@ -2,7 +2,7 @@ package com.simplilearn.fsd;
 
 public class Variable {
 
-	
+	static String str3;
 	
 	public static void main(String[] args) {
 		
@@ -51,7 +51,18 @@ public class Variable {
 		System.out.println("The value of i is " + i);
 		
 		
+		String str1 = new String("Hello");
+		String str2 = new String("Hello");
 		
+		if ( str1 == str2 ) {
+			System.out.println("Equal");
+		}
+		else {
+			System.out.println("Different");		
+		}
+		
+	
+		System.out.println(str3);
 
 	}
 	
