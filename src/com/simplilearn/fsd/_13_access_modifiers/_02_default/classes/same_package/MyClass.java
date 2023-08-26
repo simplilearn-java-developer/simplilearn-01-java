@@ -9,7 +9,7 @@ public class MyClass {
 
 	int num = 4;
 	
-	void doSomething() {
+	public void doSomething() {
 		System.out.println("Doing Something");
 	}
 }

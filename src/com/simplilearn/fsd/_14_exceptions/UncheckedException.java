@@ -12,6 +12,10 @@ public class UncheckedException {
 		int num = -1;
 		int result = 0;
 		
+		//String str;
+		
+		//num = Integer.valueOf(str);
+		
 		while (num <= 0) {
 			
 			try {
