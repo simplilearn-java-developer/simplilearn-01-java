@@ -6,6 +6,22 @@ import java.util.TreeMap;
 
 public class IntegerStringMapExample {
 
+	/*
+	 * A Collection of elements in a key-value format.
+	 * The elements are indexed by key.
+	 * 
+	 * It doesn't allow duplicate keys.
+	 * It doesn't keep the insertion order.
+	 * 
+	 * We use map for searching in memory. 
+	 * Time Complexity - O(1) - Constant.
+	 * 
+	 * Implement Hash Algorithm
+	 * 
+	 * LinkedHashMap - Keeps the insertion order.
+	 * TreeMap - Sorts the map by keys.
+	 */
+	
 	public static void main(String[] args) {
 
 		Map<Integer,String> map = new TreeMap<>();
